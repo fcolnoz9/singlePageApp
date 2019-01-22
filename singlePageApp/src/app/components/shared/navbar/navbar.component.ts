@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
 })
+
 export class NavbarComponent implements OnInit {
 
   constructor() { }
@@ -11,4 +12,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  buscarHeroe(heroeBuscado: string) {
+    console.log(heroeBuscado);
+  }
 }
