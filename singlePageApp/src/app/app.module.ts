@@ -1,21 +1,21 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//Routes
+// Routes
 import {APP_ROUTING} from './app.routes';
 
-//Services
+// Services
 
 import { HeroesService } from './services/heroes/heroes.service';
 
-//Components
+// Components
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroComponent } from './components/hero/hero.component';
-import { BuscadorHeroComponent } from './src/app/components/buscador-hero/buscador-hero.component';
+import { BuscadorHeroComponent } from './components/buscador-hero/buscador-hero.component';
 
 @NgModule({
   declarations: [
